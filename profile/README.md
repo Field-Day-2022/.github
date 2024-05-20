@@ -20,7 +20,7 @@ The Field Day 2022 Progressive Web App (PWA) is a React-based application design
 
 The Field Day Web UI is a React-based web application designed to serve as the user interface for the Field Day 2022 event. The repository is organized with a focus on component modularity, featuring a variety of reusable components such as buttons, cards, and tables. Key components include App.jsx as the main entry point and specialized components like EnvironmentSelector, NewEntryForm, and TableTools for specific functionalities. The codebase also incorporates pagination and notification features, evident from the Pagination and Notifier components. Overall, the repository aims to provide a clean, user-friendly interface for managing various aspects of the Field Day 2022 event.
 
-[🌐 Visit the Web UI](https://asu-field-day-pwa.web.app/)
+[🌐 Visit the Web UI](https://asu-field-day-webui.web.app/)
 
 ---
 
