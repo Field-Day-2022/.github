@@ -41,7 +41,7 @@ git checkout -b feature/<short-description>
 ~~~
 
 ### 4. Apply Your Changes
-- Manually apply your changes to a copy of the main branch from the original repository.
+- Manually apply your changes to a copy of the dev branch from the original repository.
 - Follow these guidelines:
   - Focus on one feature or fix per branch.
   - Avoid bundling multiple changes in a single branch.
