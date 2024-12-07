@@ -58,6 +58,12 @@ Field Day is made possible through the hard work of interdisciplinary teams of s
 
 ### 2024 Capstone Team
 
+- **Quinten Knowles** ([qknowles](https://github.com/qknowles))
+- **Chase Molstad** ([cmolstad1218793914](https://github.com/cmolstad1218793914))
+- **Evan Hagood** ([evanhagood](https://github.com/evanhagood))
+- **Ayesha Arif** ([ayeshaArif6](https://github.com/ayeshaArif6))
+- **Timothy Weaver** ([tlweave2](https://github.com/tlweave2))
+
 ### Sponsor
 - **[Professor Heather Bateman](https://www.linkedin.com/in/heather-bateman-68341013/):** Professor and Researcher of Biology
 
