@@ -1,26 +1,73 @@
-# 🦎 Hi there 👋, Welcome to Field Day Organization!
+# <img src="./logo.svg" alt="Field Day Logo" width="100"> Welcome to Field Day Organization!
+
+The **Field Day Project** is an innovative solution designed to support wildlife researchers in collecting and managing data efficiently. Our tools cater to the unique challenges faced by field researchers, particularly in biology and ecology.
+
+## 🌟 Introduction
+
+Field Day is built with modern web technologies and includes two key components:
+- **[Field Day Mobile Data Collector (MDC)](https://github.com/Field-Day-2022/mobile-data-collector):** Optimized for mobile devices, this app facilitates offline data collection for wildlife population studies using capture-mark-recapture techniques.
+- **[Field Day Desktop Data Manager (DDM)](https://github.com/Field-Day-2022/desktop-data-manager):** A desktop-friendly web application designed for managing and exporting collected data.
+
+Both tools are secure, scalable, and cost-effective, leveraging Firebase for backend services and integrating dynamic features such as offline support, advanced authentication, and data export functionality.
+
+![Field Day Screenshots](mockups.png)
+
+## 🖥️ Field Day Applications
+
+### 1. [**Field Day Mobile Data Collector**](https://github.com/Field-Day-2022/mobile-data-collector)
+The **Field Day MDC** is a React-based mobile application tailored for researchers working in remote locations. Key features include:
+- **Offline Mode**: Cache data locally for uninterrupted use in the field.
+- **Custom Data Input Forms**: Capture and log observations with predefined answer sets.
+- **Google Authentication**: Secure access with two-factor authentication.
+
+🔗 **[Try the MDC](https://asu-field-day-pwa.web.app/)**
 
 ---
 
-## 🙋‍♀️ A Short Introduction
+### 2. [**Field Day Desktop Data Manager**](https://github.com/Field-Day-2022/desktop-data-manager)
+The **Field Day Desktop Data Manager (DDM)** is designed to view, manage, and export wildlife data collected using the Field Day MDC. Optimized for larger screens, it includes:
+- **Dynamic Data Management**: View, sort, and edit data in a streamlined table view.
+- **Data Export**: Easily export observations to CSV format.
+- **Answer Set Management**: Define and modify templates for structured data input.
+- **Responsive Design**: Optimized for laptops, desktops, and tablets.
 
-The Field Day project is an innovative Wildlife Data Collection and management Tool designed to address field researchers' challenges, particularly those in biology and ecology. The project is developed by a cross-disciplinary team, consisting of a Progressive Web App (PWA) for mobile devices and a web application for larger screens. These tools focus on streamlining data collection, improving offline functionality, and enhancing authentication security through 2-factor Google authentication. The system has been migrated from Amazon Web Services to Firebase for cost-effectiveness. The mobile app facilitates population data collection for various species using capture mark-recapture techniques and offers offline data collection by caching the database locally. The web app allows users to manage, view, and export data dynamically, optimizing performance and reducing costs. Developed using modern technologies like React, Vite, and Tailwind CSS for the front end and Firebase and Firestore for the back end, Field Day represents a scalable, secure, and cost-effective solution for wildlife data collection and analysis.
-
----
-
-## 📱 [Field Day PWA](https://github.com/Field-Day-2022/field-day-2022-pwa)
-
-The Field Day 2022 Progressive Web App (PWA) is a React-based application designed to collect and manage wildlife data. It features various components for data collection forms, in-app notifications, and navigation. The app utilizes Firebase for backend services and includes specific configurations for PWA capabilities, such as service workers and a manifest file. With a focus on user experience, the app also provides pages for home, data collection, and about us, all styled consistently.
-
-[🌐 Visit the PWA](https://asu-field-day-pwa.web.app/)
+🔗 **[Explore the DDM](https://asu-field-day-webui.web.app/)**
 
 ---
 
-## 🖥️ [Field Day Web UI](https://github.com/Field-Day-2022/field-day-2022-webui)
+## 🛠️ Technology Stack
 
-The Field Day Web UI is a React-based web application designed to serve as the user interface for the Field Day 2022 event. The repository is organized with a focus on component modularity, featuring a variety of reusable components such as buttons, cards, and tables. Key components include App.jsx as the main entry point and specialized components like EnvironmentSelector, NewEntryForm, and TableTools for specific functionalities. The codebase also incorporates pagination and notification features, evident from the Pagination and Notifier components. Overall, the repository aims to provide a clean, user-friendly interface for managing various aspects of the Field Day 2022 event.
+Field Day applications are built using modern web development tools to ensure performance, scalability, and ease of use:
+| **Category** | **Technologies**                                                                                                                                                                                                                                                                                                            |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) |
+| **Backend**  | ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) ![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)                                                                                                   |
 
-[🌐 Visit the Web UI](https://asu-field-day-webui.web.app/)
+---
+
+## 🤝 Contributors and Acknowledgments
+
+Field Day is made possible through the hard work of interdisciplinary teams of software engineers and biologists.
+
+### 2022 Capstone Team
+- **Isaiah Lathem** ([ilathem](https://github.com/ilathem))
+- **Jack Norman** ([jakBkwik](https://github.com/jakBkwik))
+- **Dennis Grassl** ([realdgrassl](https://github.com/realdgrassl))
+- **Ian Skelskey** ([ianskelskey](https://github.com/ianskelskey))
+- **Zachary Jacobson** ([zacharyjacobson](https://github.com/zacharyjacobson))
+
+### 2024 Capstone Team
+
+### Sponsor
+- **[Professor Heather Bateman](https://www.linkedin.com/in/heather-bateman-68341013/):** Professor and Researcher of Biology
+
+We are grateful for the continued support and dedication of all contributors!
+
+---
+
+## 📢 Get Involved
+
+Interested in contributing or learning more? Check out our [Contribution Guide](https://github.com/Field-Day-2022/.github/blob/main/CONTRIBUTING.md) or reach out to us for collaboration opportunities.
 
 ---
 
