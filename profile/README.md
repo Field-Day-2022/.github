@@ -1,4 +1,4 @@
-# <img src="./logo.svg" alt="Field Day Logo" width="100"> Welcome to Field Day Organization!
+# <img src="./logo.svg" alt="Field Day Logo" width="40"> Welcome to Field Day Organization!
 
 The **Field Day Project** is an innovative solution designed to support wildlife researchers in collecting and managing data efficiently. Our tools cater to the unique challenges faced by field researchers, particularly in biology and ecology.
 
