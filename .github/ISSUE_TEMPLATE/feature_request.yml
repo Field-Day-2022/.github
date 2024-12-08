@@ -1,0 +1,44 @@
+name: Feature Request
+description: Use this template to propose a new feature or enhancement.
+title: "[Feature]: "
+labels: ["enhancement"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an idea to improve the project! Please provide details below to help us evaluate your request.
+
+  - type: input
+    id: feature-summary
+    attributes:
+      label: Feature Summary
+      description: Briefly summarize the feature request.
+      placeholder: "What is the feature about?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem-to-solve
+    attributes:
+      label: Problem to Solve
+      description: Explain the problem this feature addresses.
+      placeholder: "What problem does this feature solve?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: Describe how the feature should work.
+      placeholder: "How should the feature function?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Provide any extra details, mockups, or references.
+      placeholder: "Add mockups, references, or context here."
