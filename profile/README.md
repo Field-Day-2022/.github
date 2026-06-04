@@ -1,80 +1,60 @@
-# <img src="./logo.svg" alt="Field Day Logo" width="40"> Welcome to Field Day Organization!
+<img src="./hero.png" alt="Field Day Mobile Data Collector in an Arizona desert landscape" width="100%">
 
-The **Field Day Project** is an innovative solution designed to support wildlife researchers in collecting and managing data efficiently. Our tools cater to the unique challenges faced by field researchers, particularly in biology and ecology.
+<div align="center">
+  <img src="./logo.svg" alt="Field Day logo" width="64">
+  <h1>Field Day</h1>
+  <p><strong>Practical data collection and management tools for wildlife researchers.</strong></p>
+  <p>
+    <a href="https://asu-field-day-pwa.web.app/">Try the Mobile Data Collector</a>
+    &middot;
+    <a href="https://asu-field-day-webui.web.app/">Open the Desktop Data Manager</a>
+    &middot;
+    <a href="https://github.com/Field-Day-2022/.github/blob/main/CONTRIBUTING.md">Contribute</a>
+  </p>
+</div>
 
-## 🌟 Introduction
+## About Field Day
 
-Field Day is built with modern web technologies and includes two key components:
-- **[Field Day Mobile Data Collector (MDC)](https://github.com/Field-Day-2022/mobile-data-collector):** Optimized for mobile devices, this app facilitates offline data collection for wildlife population studies using capture-mark-recapture techniques.
-- **[Field Day Desktop Data Manager (DDM)](https://github.com/Field-Day-2022/desktop-data-manager):** A desktop-friendly web application designed for managing and exporting collected data.
+Field Day is an open-source toolkit for collecting and managing wildlife research data. It supports capture-mark-recapture studies and other field workflows through two connected applications: an offline-capable mobile data collector and a desktop-friendly data manager.
 
-Both tools are secure, scalable, and cost-effective, leveraging Firebase for backend services and integrating dynamic features such as offline support, advanced authentication, and data export functionality.
+## Applications
 
-![Field Day Screenshots](mockups.png)
+### [Mobile Data Collector (MDC)](https://github.com/Field-Day-2022/mobile-data-collector)
 
-## 🖥️ Field Day Applications
+A mobile-first React application designed for researchers working in remote locations.
 
-### 1. [**Field Day Mobile Data Collector**](https://github.com/Field-Day-2022/mobile-data-collector)
-The **Field Day MDC** is a React-based mobile application tailored for researchers working in remote locations. Key features include:
-- **Offline Mode**: Cache data locally for uninterrupted use in the field.
-- **Custom Data Input Forms**: Capture and log observations with predefined answer sets.
-- **Google Authentication**: Secure access with two-factor authentication.
+- Collect observations while offline and sync them when connectivity returns.
+- Use structured forms and predefined answer sets for consistent data entry.
+- Securely access projects with Google authentication.
 
-🔗 **[Try the MDC](https://asu-field-day-pwa.web.app/)**
+**[Launch the MDC](https://asu-field-day-pwa.web.app/)** &middot; **[View repository](https://github.com/Field-Day-2022/mobile-data-collector)**
 
----
+### [Desktop Data Manager (DDM)](https://github.com/Field-Day-2022/desktop-data-manager)
 
-### 2. [**Field Day Desktop Data Manager**](https://github.com/Field-Day-2022/desktop-data-manager)
-The **Field Day Desktop Data Manager (DDM)** is designed to view, manage, and export wildlife data collected using the Field Day MDC. Optimized for larger screens, it includes:
-- **Dynamic Data Management**: View, sort, and edit data in a streamlined table view.
-- **Data Export**: Easily export observations to CSV format.
-- **Answer Set Management**: Define and modify templates for structured data input.
-- **Responsive Design**: Optimized for laptops, desktops, and tablets.
+A responsive web application for reviewing, managing, and exporting data collected with the MDC.
 
-🔗 **[Explore the DDM](https://asu-field-day-webui.web.app/)**
+- Browse, sort, and edit observations in a streamlined table.
+- Export research data to CSV.
+- Create and update answer sets for structured field forms.
 
----
+**[Launch the DDM](https://asu-field-day-webui.web.app/)** &middot; **[View repository](https://github.com/Field-Day-2022/desktop-data-manager)**
 
-## 🛠️ Technology Stack
+## See Field Day in Action
 
-Field Day applications are built using modern web development tools to ensure performance, scalability, and ease of use:
-| **Category**      | **Technologies**                                                                                                                                                                                                                                                                                                            |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Frontend**      | ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) |
-| **Backend**       | ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) ![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)                                                                                                   |
-| **Documentation** | ![Asciidoctor](https://img.shields.io/badge/Asciidoctor-6DB33F?style=for-the-badge&logo=asciidoctor&logoColor=white&color=e40046)                                                                                                                                                                                                        |
+![Field Day Desktop Data Manager and Mobile Data Collector](./mockups.png)
 
----
+## Technology
 
-## 🤝 Contributors and Acknowledgments
+| Area | Technologies |
+| --- | --- |
+| Frontend | React, Vite, Tailwind CSS |
+| Backend | Firebase, Cloud Firestore |
+| Documentation | Asciidoctor |
 
-Field Day is made possible through the hard work of interdisciplinary teams of software engineers and biologists.
+## Acknowledgment
 
-### 2022 Capstone Team
-- **Isaiah Lathem** ([ilathem](https://github.com/ilathem))
-- **Jack Norman** ([jakBkwik](https://github.com/jakBkwik))
-- **Dennis Grassl** ([realdgrassl](https://github.com/realdgrassl))
-- **Ian Skelskey** ([ianskelskey](https://github.com/ianskelskey))
-- **Zachary Jacobson** ([zacharyjacobson](https://github.com/zacharyjacobson))
+Field Day is sponsored by [Professor Heather Bateman](https://www.linkedin.com/in/heather-bateman-68341013/), Professor and Researcher of Biology.
 
-### 2024 Capstone Team
+## Get Involved
 
-- **Quinten Knowles** ([qknowles](https://github.com/qknowles))
-- **Chase Molstad** ([cmolstad1218793914](https://github.com/cmolstad1218793914))
-- **Evan Hagood** ([evanhagood](https://github.com/evanhagood))
-- **Ayesha Arif** ([ayeshaArif6](https://github.com/ayeshaArif6))
-- **Timothy Weaver** ([tlweave2](https://github.com/tlweave2))
-
-### Sponsor
-- **[Professor Heather Bateman](https://www.linkedin.com/in/heather-bateman-68341013/):** Professor and Researcher of Biology
-
-We are grateful for the continued support and dedication of all contributors!
-
----
-
-## 📢 Get Involved
-
-Interested in contributing or learning more? Check out our [Contribution Guide](https://github.com/Field-Day-2022/.github/blob/main/CONTRIBUTING.md) or reach out to us for collaboration opportunities.
-
----
-
+Contributions that make field research workflows more reliable, accessible, and efficient are welcome. Read the [Contribution Guide](https://github.com/Field-Day-2022/.github/blob/main/CONTRIBUTING.md) or explore the [Field Day repositories](https://github.com/orgs/Field-Day-2022/repositories) to get started.
