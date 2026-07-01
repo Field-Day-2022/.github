@@ -5,10 +5,6 @@
   <h1>Field Day</h1>
   <p><strong>Practical data collection and management tools for wildlife researchers.</strong></p>
   <p>
-    <a href="https://asu-field-day-pwa.web.app/">Try the Mobile Data Collector</a>
-    &middot;
-    <a href="https://asu-field-day-webui.web.app/">Open the Desktop Data Manager</a>
-    &middot;
     <a href="https://github.com/Field-Day-2022/.github/blob/main/CONTRIBUTING.md">Contribute</a>
   </p>
 </div>
@@ -27,7 +23,7 @@ A mobile-first React application designed for researchers working in remote loca
 - Use structured forms and predefined answer sets for consistent data entry.
 - Securely access projects with Google authentication.
 
-**[Launch the MDC](https://asu-field-day-pwa.web.app/)** &middot; **[View repository](https://github.com/Field-Day-2022/mobile-data-collector)**
+**[View repository](https://github.com/Field-Day-2022/mobile-data-collector)**
 
 ### [Desktop Data Manager (DDM)](https://github.com/Field-Day-2022/desktop-data-manager)
 
@@ -37,7 +33,7 @@ A responsive web application for reviewing, managing, and exporting data collect
 - Export research data to CSV.
 - Create and update answer sets for structured field forms.
 
-**[Launch the DDM](https://asu-field-day-webui.web.app/)** &middot; **[View repository](https://github.com/Field-Day-2022/desktop-data-manager)**
+**[View repository](https://github.com/Field-Day-2022/desktop-data-manager)**
 
 ## See Field Day in Action
 
